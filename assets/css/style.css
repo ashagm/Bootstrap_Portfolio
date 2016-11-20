@@ -1,0 +1,219 @@
+
+#wrapper{
+	background: URL("../images/seamless.jpg");
+	padding: 30px;	
+}
+
+#header{
+	height: 80px;
+	margin:auto;
+}
+
+body{
+	background-color: #ffffff;
+	width: 100%;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* ----Nav bar-------- */
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-style {
+	background-color: #ffffff;
+	height: 80px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 2px solid #cccccc;
+}
+
+.navbar-brand-title{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	height: 100%;
+	padding: 20px 20px 35px 20px;
+}
+.navbar-div{
+	padding-top: 10px;
+}
+
+.navbar-link{
+	color: #cccccc;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+a:link    {color:#cccccc; text-decoration:none}
+a:visited {color:#cccccc; text-decoration:none}
+a:hover   {color:#4aaaa5; text-decoration:none}
+
+/* ----End of Navbar-----*/
+
+
+.page-header {
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.content{
+	height: auto;
+	background-color: #ffffff;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.contentHeader{
+	color: #4aaaa5;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #cccccc;
+	margin-top:0;
+
+}
+
+#submit{
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+
+/*Connect section */
+
+.panel-info>.panel-heading {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+.panel-heading {
+    border-bottom: none;
+}
+.connectHeader {
+    color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold; 
+    text-align: center;
+    border-bottom: 2px solid #cccccc;
+}
+
+.connectLogo{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+/*--Portfolio--*/
+
+.relative{
+	position: relative;
+}
+
+.portfolioTitle{
+	position: absolute;
+	width:100%;
+	background-color: #4aaaa5;
+	padding: 10px 0px;
+	text-align: center;
+	bottom: 20px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+height: 100%;
+/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+/* Negative indent footer by it's height */
+margin: 0 auto -80px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+height: 80px;
+}
+
+#footer {
+background-color: #666666;
+border-top: 10px solid #4aaaa5;
+/*height: 80px;*/
+/*text-align: center;*/
+color: #cccccc;
+padding-top : 30px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+/*@media (max-width: 767px) {
+#footer {
+margin-left: -20px;
+margin-right: -20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+}*/
+
+
+/*Animated Div*/
+
+
+#animated_div {
+position: relative;
+font-weight:bold;
+animation:animated_div 5s 1;
+-moz-animation:animated_div 5s 1;
+-webkit-animation:animated_div 5s 1;
+-o-animation:animated_div 5s 1;
+border-radius:5px;
+  -webkit-border-radius:5px;
+}
+
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+55% {transform: rotate(0deg);left:500px;}
+70% {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {transform: rotate(-360deg);left:0px;}
+}
+
+@-webkit-keyframes animated_div
+{
+0% {-webkit-transform: rotate(0deg);left:0px;}
+25% {-webkit-transform: rotate(20deg);left:0px;}
+50% {-webkit-transform: rotate(0deg);left:500px;}
+55% {-webkit-transform: rotate(0deg);left:500px;}
+70% {-webkit-transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {-webkit-transform: rotate(-360deg);left:0px;}
+}
+
+@-moz-keyframes animated_div
+{
+0%  {-moz-transform: rotate(0deg);left:0px;}
+25% {-moz-transform: rotate(20deg);left:0px;}
+50%  {-moz-transform: rotate(0deg);left:500px;}
+55%  {-moz-transform: rotate(0deg);left:500px;}
+70%  {-moz-transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {-moz-transform: rotate(-360deg);left:0px;}
+}
+
+@-o-keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50%  {transform: rotate(0deg);left:500px;}
+55%  {transform: rotate(0deg);left:500px;}
+70%  {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {transform: rotate(-360deg);left:0px;}
+}
+
+
